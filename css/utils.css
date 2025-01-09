@@ -1,0 +1,140 @@
+/*  Generic utility classes   */
+
+.my-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mx-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pl-1 {
+    padding-left: 5px;
+}
+
+.pl-2 {
+    padding-left: 10px;
+}
+
+.pl-3 {
+    padding-left: 15px;
+}
+
+.pl-4 {
+    padding-left: 20px;
+}
+
+.pb-1 {
+    padding-bottom: 5px;
+}
+
+.pb-2 {
+    padding-bottom: 10px;
+}
+
+.pb-3 {
+    padding-bottom: 15px;
+}
+
+.pb-4 {
+    padding-bottom: 20px;
+}
+
+.mt-1 {
+    margin-top: 5px;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.mt-4 {
+    margin-top: 20px;
+}
+
+.mr-4 {
+    margin-right: 20px;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+@media (min-width: 768px) {
+    .md-text-center {
+        text-align: center;
+    }
+
+    .md-text-left {
+        text-align: left;
+    }
+    .md-mx-0 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .md-flex-row {
+        flex-direction: row;
+    }
+    .md-justify-between {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 920px) {
+    .lg-text-right {
+        text-align: right;
+    }
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+}

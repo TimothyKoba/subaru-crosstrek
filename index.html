@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/crosstrek.png">
+    <title>2024 Subaru Crosstrek</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#hero-section">
+                    <img id="brand-img" src="./images/crosstrek.png" alt="Home" srcset="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#specs-section">Info <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#info-gallery">Learn more</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#call-sales">Sales</a></li>
+                    <li><a href="#call-service">Service</a></li>
+                    <li><a href="/hours.aspx">Hours</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section id="hero-section" class="jumbotron">
+        <div class="container">
+            <div class="row pb-4 text-center lg-text-right mr-4">
+                <h1 class="my-0">
+                    <strong>
+                        2024 Subaru Crosstrek
+                    </strong>
+                </h1>
+                <div class="h4">In Charlotte, NC</div>
+                <a id="heroActionButton" href="" role="button" class="btn">
+                    <strong class="h3 text-uppercase">
+                        Search inventory
+                    </strong>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Numerical values (MSRP, MPG and user ratings). -->
+    <section id="specs-section" class="container">
+        <div id="specs-row" class="row text-center">
+            <!-- MSRP -->
+            <div class="col-xs-12 col-sm-4">
+                <!-- Price tag SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="spec-svg mr-4"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                        d="M0 80L0 229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7L48 32C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+                </svg>
+                <h1>
+                    $28,245
+                    <small>MSRP</small>
+                </h1>
+            </div>
+            <!-- MPG specs -->
+            <div class="col-xs-12 col-sm-4">
+                <div class="row flex justify-center">
+                    <!-- Gas pump SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="spec-svg mr-4"
+                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M32 64C32 28.7 60.7 0 96 0L256 0c35.3 0 64 28.7 64 64l0 192 8 0c48.6 0 88 39.4 88 88l0 32c0 13.3 10.7 24 24 24s24-10.7 24-24l0-154c-27.6-7.1-48-32.2-48-62l0-64L384 64c-8.8-8.8-8.8-23.2 0-32s23.2-8.8 32 0l77.3 77.3c12 12 18.7 28.3 18.7 45.3l0 13.5 0 24 0 32 0 152c0 39.8-32.2 72-72 72s-72-32.2-72-72l0-32c0-22.1-17.9-40-40-40l-8 0 0 144c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32s14.3-32 32-32L32 64zM96 80l0 96c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16l0-96c0-8.8-7.2-16-16-16L112 64c-8.8 0-16 7.2-16 16z" />
+                    </svg>
+                    <span class="h2">MPG</span>
+                </div>
+                <div class="text-center h3 mt-3 text-muted">
+                    26 City
+                </div>
+                <div class="text-center h3 mt-3 text-muted">
+                    35 Highway
+                </div>
+            </div>
+            <!-- Ratings -->
+            <div class="col-xs-12 col-sm-4">
+                <div class="flex justify-center">
+                    <!-- 4 solid star SVGs -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="rating-star"
+                        viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="rating-star"
+                        viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="rating-star"
+                        viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="rating-star"
+                        viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                    </svg>
+                    <!-- Half star SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="rating-star"
+                        viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path
+                            d="M288 376.4l.1-.1 26.4 14.1 85.2 45.5-16.5-97.6-4.8-28.7 20.7-20.5 70.1-69.3-96.1-14.2-29.3-4.3-12.9-26.6L288.1 86.9l-.1 .3 0 289.2zm175.1 98.3c2 12-3 24.2-12.9 31.3s-23 8-33.8 2.3L288.1 439.8 159.8 508.3C149 514 135.9 513.1 126 506s-14.9-19.3-12.9-31.3L137.8 329 33.6 225.9c-8.6-8.5-11.7-21.2-7.9-32.7s13.7-19.9 25.7-21.7L195 150.3 259.4 18c5.4-11 16.5-18 28.8-18s23.4 7 28.8 18l64.3 132.3 143.6 21.2c12 1.8 22 10.2 25.7 21.7s.7 24.2-7.9 32.7L438.5 329l24.6 145.7z" />
+                    </svg>
+                </div>
+                <h3 class="mt-4">4.39 <small>(74 reviews)</small></h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Always room for stories section -->
+    <section id="stories-section">
+        <div id="stories-container" class="container-fluid flex flex-col justify-end w-full h-full px-0">
+            <!-- <img class="mx-auto w-full" src="./images/crosstrek2.jpg" alt=""> -->
+            <div id="stories-text" class="text-center md-text-left">
+                <div class="container">
+                    <h2>
+                        Always room for stories.
+                    </h2>
+                    <p class="mx-auto md-mx-0">
+                        The 2024 Subaru Crosstrek is the most powerful,
+                        most fun to drive, and safest Crosstrek we’ve ever made,
+                        with performance, technology, and design updates throughout.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery & Learn more -->
+    <div id="info-gallery">
+        <div class="bg-black">
+            <section class="container">
+                <div class="row" style="height: 600px;">
+                    <div class="col-xs-6 h-full col-md-3 text-center md-text-left bg-cover-img"
+                        style="background-image: url('./images/crosstrek2.jpg');">
+                        <div class="carousel-slide-content">
+                            <h3>
+                                Extra power, capability, and fun
+                            </h3>
+                            <button class="btn btn-link drawer-toggle-btn" data-drawer-number="0">Learn more
+                                <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 h-full col-md-3 text-center md-text-left bg-cover-img"
+                        style="background-image: url('./images/crosstrek10.jpg');">
+                        <img alt="" class="img-responsive carousel-slide-img">
+                        <div class="carousel-slide-content">
+                            <h3 class="tracking-wide">
+                                Sporty Exterior Design
+                            </h3>
+                            <button class="btn btn-link drawer-toggle-btn" data-drawer-number="1">Learn more
+                                <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 h-full col-md-3 text-center md-text-left bg-cover-img"
+                        style="background-image: url('./images/crosstrek5.jpg');">
+                        <div class="carousel-slide-content">
+                            <h3 class="tracking-wide">
+                                Comfortable and Modern Interior
+                            </h3>
+                            <button class="btn btn-link drawer-toggle-btn" data-drawer-number="2">Learn more
+                                <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 h-full col-md-3 text-center md-text-left bg-cover-img"
+                        style="background-image: url('./images/crosstrek4.jpg');">
+                        <img alt="" class="img-responsive carousel-slide-img">
+                        <div class="carousel-slide-content">
+                            <h3 class="tracking-wide">
+                                Safe, Convenient, and Entertaining
+                            </h3>
+                            <button class="btn btn-link drawer-toggle-btn" data-drawer-number="3">Learn more
+                                <span class="glyphicon glyphicon-arrow-right" aria-hidden="true">
+                                </span>
+                            </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Overlay to darken and blur background when drawer opened -->
+    <div id="bg-overlay" class="hidden"></div>
+
+    <!-- Side drawer 1 -->
+    <div id="drawer-0" class="drawer closed">
+        <button class="close" type="button" class="close" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <img class="img-responsive" src="./images/crosstrek2.jpg" alt="" srcset="">
+        <div class="pl-4">
+            <h3 class="tracking-wide">
+                Extra power, capability, and fun
+            </h3>
+            <p>
+                The 2024 Crosstrek features a newly available 2.5-liter
+                direct-injection SUBARU BOXER engine that delivers more
+                torque and increases output to 182 horsepower – extra power
+                that makes all your trips more exciting and responsive.
+            </p>
+        </div>
+    </div>
+    <!-- Side drawer 2 -->
+    <div id="drawer-1" class="drawer closed">
+        <button class="close" type="button" class="close" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <img class="img-responsive" src="./images/crosstrek10.jpg" alt="" srcset="">
+        <div class="pl-4">
+            <h3 class="tracking-wide">
+                Sporty Exterior Design
+            </h3>
+            <p>
+                Crosstrek Sport features unique exterior design elements like its
+                aggressively styled grille and wheel arch moldings, gunmetal finish
+                exterior accents, and exclusive dark gray wheels.
+            </p>
+        </div>
+    </div>
+    <!-- Side drawer 3 -->
+    <div id="drawer-2" class="drawer closed">
+        <button class="close" type="button" class="close" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <img class="img-responsive" src="./images/crosstrek5.jpg" alt="" srcset="">
+        <div class="pl-4">
+            <h3 class="tracking-wide">
+                Comfortable and Modern Interior
+            </h3>
+            <p>
+                Inside the Crosstrek Sport, you’ll find a comfortable interior that combines modern
+                style and durable high-tech materials – like its standard, adventure-ready
+                StarTex® water-repellent upholstery with yellow contrast stitching and
+                yellow accent trim.
+            </p>
+        </div>
+    </div>
+    <!-- Side drawer 4 -->
+    <div id="drawer-3" class="drawer closed">
+        <button class="close" type="button" class="close" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <img class="img-responsive" src="./images/crosstrek4.jpg" alt="" srcset="">
+        <div class="pl-4">
+            <h3 class="tracking-wide">
+                Safe, Convenient, and Entertaining
+            </h3>
+            <p>
+                The 2024 Crosstrek features STARLINK Multimedia with standard Apple CarPlay® and Android
+                Auto™ integration. Wireless pairing and hands-free smartphone operation allow for safe
+                and easy connection to your favorite apps and content. Access news, navigation, music,
+                podcasts, and more through available cloud-based STARLINK apps and SiriusXM®.
+                An 8-inch touchscreen is available, as well as a built-in and voice-activated navigation
+                system powered by TomTom®.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer as Contact Us -->
+    <footer class="container pl-4">
+        <nav class="flex flex-col md-flex-row md-justify-between">
+            <div>
+                <div class="h4">
+                    Sales
+                </div>
+                <a id="call-sales" href="tel:+15558775434">
+                    555-877-5434
+                </a>
+            </div>
+            <div>
+                <div class="h4">
+                    Service
+                </div>
+                <a id="call-service" href="tel:+15558775435">555-877-5435</a>
+            </div>
+            <div>
+                <div class="h4">
+                    Address
+                </div>
+                <a id="call-hours" href="/hours.aspx">
+                    1326 SE Enterprise, Charlotte, NC 28204
+                </a>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
