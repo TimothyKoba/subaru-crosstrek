@@ -3,7 +3,6 @@ html {
 }
 
 p {
-    max-width: 500px;
     line-height: 1.5em;
     letter-spacing: 0.05em;
 }
@@ -119,14 +118,28 @@ section#stories-section {
     right: 0;
     top: 0;
     bottom: 0;
-    display: none;
-    transition: width 1s, display 1s;
+    transform: translateX(100%);
+    max-width: min(720px, 100vw);
+    width: min(720px, 100vw);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
 }
 
+.drawer > div.drawer-text {
+    padding: 30px;
+}
+
+.drawer>div.drawer-text>p {
+    letter-spacing: 0.12em;
+    line-height: 1.5em;
+}
+
+
 .drawer.open {
+    transform: translateX(0);
+    opacity: 1;
     padding-top: 30px;
     display: block;
-    width: min(720px, 100vw);
     min-height: 100vh;
     background-color: white;
     color: black;
@@ -150,5 +163,5 @@ section#stories-section {
 
 footer {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
