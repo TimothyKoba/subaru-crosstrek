@@ -35,19 +35,19 @@ section {
     color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     #hero-section {
         min-height: calc(100vh - 50px);
-        position: relative;
-        top: 50px;
+        margin-top: 50px;
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         background: none !important;
         flex-direction: column;
         align-items: stretch;
+        min-height: unset;
     }
 
-    #hero-section > .container {
+    #hero-section>.container {
         flex-grow: 1;
         display: flex;
         justify-content: center;
@@ -57,12 +57,26 @@ section {
         color: white;
         padding-top: 50px;
         padding-bottom: 50px;
+        max-height: 500px;
     }
-    
+
+    #heroActionButton {
+        letter-spacing: 0.10em !important;
+        padding: 14px !important;
+        margin-top: 20px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
 }
 
 #heroActionButton {
-    padding: 14px 12px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    padding: 20px 20px;
     letter-spacing: 0.15em;
     border: solid 2px white;
     color: white;
@@ -149,7 +163,7 @@ section#stories-section {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.drawer > div.drawer-text {
+.drawer>div.drawer-text {
     padding: 30px;
 }
 
@@ -167,6 +181,7 @@ section#stories-section {
     min-height: 100vh;
     background-color: white;
     color: black;
+    overflow-y: scroll;
 }
 
 .drawer>button.close {

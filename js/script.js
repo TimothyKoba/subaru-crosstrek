@@ -2,12 +2,14 @@
 	const toggledrawerButtons = document.querySelectorAll(".drawer-toggle-btn");
 	const sideDrawers = document.querySelectorAll(".drawer");
 	const overlay = document.getElementById("bg-overlay");
+	const body = document.querySelector('body');
 
 	function closeSideDrawers() {
 		sideDrawers.forEach((drawer) => {
 			drawer.classList.replace("open", "closed");
 			overlay.classList.replace("open", "hidden");
 		});
+		body.style.overflowY = 'auto';
 	}
 
 	toggledrawerButtons.forEach((btn) => {
@@ -18,6 +20,7 @@
                 selection = parseInt(e.target.dataset?.drawerNumber);
                 sideDrawers[selection].classList.replace("closed", "open");
                 overlay.classList.replace("hidden", "open");
+				body.style.overflowY = "hidden";
 			} catch (error) {
 				// Could not convert data-drawer-number to an int OR
                 // an likely an undefined error arose when trying to toggle classes.
