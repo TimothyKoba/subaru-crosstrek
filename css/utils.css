@@ -129,7 +129,7 @@
     }
 }
 
-@media (min-width: 920px) {
+@media (min-width: 992px) {
     .lg-text-right {
         text-align: right;
     }
